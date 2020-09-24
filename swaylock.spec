@@ -4,7 +4,7 @@
 #
 Name     : swaylock
 Version  : 1.5
-Release  : 4
+Release  : 5
 URL      : https://github.com/swaywm/swaylock/archive/1.5/swaylock-1.5.tar.gz
 Source0  : https://github.com/swaywm/swaylock/archive/1.5/swaylock-1.5.tar.gz
 Summary  : No detailed summary available
