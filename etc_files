@@ -1,0 +1,4 @@
+/etc/:
+/etc/pam.d:
+pam.d
+swaylock
