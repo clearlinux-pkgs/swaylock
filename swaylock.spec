@@ -6,10 +6,10 @@
 # autospec commit: fbbd4e3
 #
 Name     : swaylock
-Version  : 1.8.1
-Release  : 11
-URL      : https://github.com/swaywm/swaylock/archive/v1.8.1/swaylock-1.8.1.tar.gz
-Source0  : https://github.com/swaywm/swaylock/archive/v1.8.1/swaylock-1.8.1.tar.gz
+Version  : 1.8.2
+Release  : 12
+URL      : https://github.com/swaywm/swaylock/archive/v1.8.2/swaylock-1.8.2.tar.gz
+Source0  : https://github.com/swaywm/swaylock/archive/v1.8.2/swaylock-1.8.2.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
@@ -75,10 +75,10 @@ man components for the swaylock package.
 
 
 %prep
-%setup -q -n swaylock-1.8.1
-cd %{_builddir}/swaylock-1.8.1
+%setup -q -n swaylock-1.8.2
+cd %{_builddir}/swaylock-1.8.2
 pushd ..
-cp -a swaylock-1.8.1 buildavx2
+cp -a swaylock-1.8.2 buildavx2
 popd
 
 %build
@@ -86,7 +86,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1742486329
+export SOURCE_DATE_EPOCH=1742763029
 unset LD_AS_NEEDED
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
